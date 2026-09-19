@@ -10,8 +10,8 @@ An end-to-end computational pipeline that extracts clinical-grade 3D gait kinema
 
 ## 📌 Motivation & Clinical Impact
 
-* **The Problem:** Traditional clinical gait analysis relies on optical motion-capture labs ($50,000+), while state-of-the-art video methods (e.g., Stenum et al., 2024) rely on 2D keypoints restricted to sagittal plane approximations.
-* **Our Solution:** By leveraging the **SMPL parametric 3D human body model** ($N=6,890$ vertices), this pipeline constructs true 3D joint trajectories ($N \times 25 \times 3$) and computes full spatio-temporal kinematic parameters entirely in MATLAB.
+* **The Problem:** Traditional clinical gait analysis relies on optical motion-capture labs ($50,000+), while state-of-the-art video methods (e.g., Stenum et al., 2024) rely on 2D keypoints restricted[...]
+* **Our Solution:** By leveraging the **SMPL parametric 3D human body model** ($N=6,890$ vertices), this pipeline constructs true 3D joint trajectories ($N \times 25 \times 3$) and computes full spati[...]
 
 ---
 
@@ -50,8 +50,8 @@ An end-to-end computational pipeline that extracts clinical-grade 3D gait kinema
     <td align="center"><b>Fitted 3D SMPL Mesh Overlay</b></td>
   </tr>
   <tr>
-    <td><img src="./assets/skeleton_overlay.jpg" width="100%"></td>
-    <td><img src="./assets/smpl_mesh_overlay.jpg" width="100%"></td>
+    <td><img src="000000.jpg" width="100%" alt="2D/3D skeleton tracking"></td>
+    <td><img src="000001.png" width="100%" alt="Fitted 3D SMPL mesh overlay"></td>
   </tr>
 </table>
 ## 📐 Kinematic & Mathematical Foundation
@@ -64,10 +64,10 @@ $$\vert{}H_{\text{eff}}\vert{} = \vert{}H(j\omega)\vert{}^2, \quad f_c = 6\text{
 ### 2. 3D Joint Angle Calculation
 Interior angles at joint vertices $B$ (e.g., Knee = Hip-Knee-Ankle) are computed via 3D vector dot products:
 
-$$\theta = \arccos\left(\frac{\vec{v}_1 \cdot \vec{v}_2}{\Vert{}\vec{v}_1\Vert{} \Vert{}\vec{v}_2\Vert{}}\right), \quad \vec{v}_1 = A - B, \; \vec{v}_2 = C - B$$
+$$\theta = \arccos\left(\frac{\vec{v}_1 \cdot \vec{v}_2}{\Vert{}\vec{v}_1\Vert{} \Vert{}\vec{v}_2\Vert{}\right), \quad \vec{v}_1 = A - B, \; \vec{v}_2 = C - B$$
 
 ### 3. Clinical Symmetry Index (SI)
-$$SI = \frac{\vert{}X_L - X_R\vert{}}{0.5(X_L + X_R)} \times 100\%$$
+$$SI = \frac{\vert{}X_L - X_R\vert{}{}}{0.5(X_L + X_R)} \times 100\%$$
 *(Where $SI = 0\%$ indicates perfect symmetry and $SI > 10\%$ denotes atypical/pathological gait).*
 
 ---
@@ -90,7 +90,7 @@ The pipeline was validated against benchmark normative data (Winter, 1991) acros
 
 | Normal Joint Angle Waveforms | Atypical Joint Angle Waveforms |
 | :---: | :---: |
-| ![Normal Gait](assets/normal_fig1.png) | ![Atypical Gait](assets/atypical_fig1.png) |
+| ![Normal Gait](000002.jpg) | ![Atypical Gait](000003.jpg) |
 
 ---
 
