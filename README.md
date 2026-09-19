@@ -94,10 +94,20 @@ The pipeline was validated against benchmark normative data (Winter, 1991) acros
 ### Visual Comparisons
 
 | Normal Joint Angle Waveforms | Atypical Joint Angle Waveforms |
-| :---: | :---: |
-| ![Normal Gait](<img width="1408" height="1007" alt="normal_fig1" src="https://github.com/user-attachments/assets/138785d7-8618-458c-ad27-acd29cbc3680" />
-) | ![Atypical Gait](<img width="1408" height="1007" alt="atypical_fig1" src="https://github.com/user-attachments/assets/983e1622-53d6-435e-b41a-666737a075c6" />) |
+<table>
+  <tr>
+    <td align="center"><b>Normal Joint Angle Waveforms</b></td>
+    <td align="center"><b>Atypical Joint Angle Waveforms
+</b></td>
+  </tr>
+  <tr>
+    <td><img width="1408" height="1007" alt="normal_fig1" src="https://github.com/user-attachments/assets/26b16012-1abd-4c3d-9920-9add91e62f87" /></td>
+    <td><img width="1408" height="1007" alt="atypical_fig1" src="https://github.com/user-attachments/assets/33bcc355-f2f6-437c-8437-201a39297ec4" />
 
+
+</td>
+  </tr>
+</table>
 ---
 
 ## 🚀 Quick Start & Usage
