@@ -42,13 +42,18 @@ An end-to-end computational pipeline that extracts clinical-grade 3D gait kinema
 ```
 
 ---
----
-
 ## 🎥 Monocular Video-to-3D Mesh Pipeline
 
-| 2D/3D Skeleton Tracking | Fitted 3D SMPL Mesh Overlay |
-| :---: | :---: |
-| ![Skeleton Tracking](assets/skeleton_overlay.jpg) | ![3D SMPL Mesh](assets/smpl_mesh_overlay.jpg) |
+<table>
+  <tr>
+    <td align="center"><b>2D/3D Skeleton Tracking</b></td>
+    <td align="center"><b>Fitted 3D SMPL Mesh Overlay</b></td>
+  </tr>
+  <tr>
+    <td><img src="./assets/skeleton_overlay.jpg" width="100%"></td>
+    <td><img src="./assets/smpl_mesh_overlay.jpg" width="100%"></td>
+  </tr>
+</table>
 ## 📐 Kinematic & Mathematical Foundation
 
 ### 1. Zero-Phase Butterworth Filtering
