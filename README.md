@@ -52,7 +52,8 @@ An end-to-end computational pipeline that extracts clinical-grade 3D gait kinema
   </tr>
   <tr>
     <td><img width="640" height="360" alt="skeleton_overlay" src="https://github.com/user-attachments/assets/e3c57775-1096-40b1-aa46-637eb0de9a0e" /></td>
-    <td><img src="./assets/smpl_mesh_overlay.jpg" width="100%"></td>
+    <td><img width="640" height="360" alt="000282" src="https://github.com/user-attachments/assets/8ec20cb7-dcab-4bfb-9034-da1f8d6f883e" />
+</td>
   </tr>
 </table>
 ## 📐 Kinematic & Mathematical Foundation
