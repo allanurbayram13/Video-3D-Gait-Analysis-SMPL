@@ -1,4 +1,4 @@
-<img width="640" height="360" alt="skeleton_overlay" src="https://github.com/user-attachments/assets/e3c57775-1096-40b1-aa46-637eb0de9a0e" />
+
 # Video-Based 3D Gait Analysis Using SMPL Body Model & MATLAB
 
 [![UNIST](https://img.shields.io/badge/UNIST-CSE%20%26%20Biomedical%20Engineering-blue)](https://www.unist.ac.kr/)
@@ -51,7 +51,7 @@ An end-to-end computational pipeline that extracts clinical-grade 3D gait kinema
     <td align="center"><b>Fitted 3D SMPL Mesh Overlay</b></td>
   </tr>
   <tr>
-    <td><img src="./assets/skeleton_overlay.jpg" width="100%"></td>
+    <td><img width="640" height="360" alt="skeleton_overlay" src="https://github.com/user-attachments/assets/e3c57775-1096-40b1-aa46-637eb0de9a0e" /></td>
     <td><img src="./assets/smpl_mesh_overlay.jpg" width="100%"></td>
   </tr>
 </table>
