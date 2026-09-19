@@ -1,3 +1,4 @@
+<img width="640" height="360" alt="skeleton_overlay" src="https://github.com/user-attachments/assets/e3c57775-1096-40b1-aa46-637eb0de9a0e" />
 # Video-Based 3D Gait Analysis Using SMPL Body Model & MATLAB
 
 [![UNIST](https://img.shields.io/badge/UNIST-CSE%20%26%20Biomedical%20Engineering-blue)](https://www.unist.ac.kr/)
