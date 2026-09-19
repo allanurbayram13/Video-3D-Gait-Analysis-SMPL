@@ -1,6 +1,6 @@
 # Video-Based 3D Gait Analysis Using SMPL Body Model & MATLAB
 
-[![UNIST](https://img.shields.io/badge/UNIST-Biomedical%20Engineering-blue)](https://www.unist.ac.kr/)
+[![UNIST](https://img.shields.io/badge/UNIST-CSE%20%26%20Biomedical%20Engineering-blue)](https://www.unist.ac.kr/)
 [![Language](https://img.shields.io/badge/MATLAB-R2023b%2B-orange)](https://www.mathworks.com/)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
@@ -39,6 +39,9 @@ An end-to-end computational pipeline that extracts clinical-grade 3D gait kinema
                │
                ▼
  📊 Clinical Gait Kinematics Report (.txt / .csv)
+```
+
+---
 
 ## 📐 Kinematic & Mathematical Foundation
 
@@ -91,20 +94,23 @@ The pipeline was validated against benchmark normative data (Winter, 1991) acros
    ```bash
    git clone [https://github.com/YOUR_USERNAME/Video-3D-Gait-Analysis-SMPL.git](https://github.com/YOUR_USERNAME/Video-3D-Gait-Analysis-SMPL.git)
    cd Video-3D-Gait-Analysis-SMPL
-Run the main processing driver in MATLAB:
+   ```
+2. Run the main processing driver in MATLAB:
+   ```matlab
+   % Run main processing script inside src/
+   cd src/
+   main_gait_analysis.m
+   ```
 
-```matlab
-% Run main processing script inside src/
-cd src/
-main_gait_analysis.m
+---
 
+## 📄 Documentation & Slides
+For complete project slides and theoretical background, check out [`docs/Video_Based_3D_Gait_Analysis_Slides.pdf`](docs/Video_Based_3D_Gait_Analysis_Slides.pdf).
 
-📄 Documentation & Slides
-For complete project slides and theoretical background, check out docs/Video_Based_3D_Gait_Analysis_Slides.pdf.
+---
 
-
-👤 Author
-**Allanur Bayramgeldiyev**
-Department of Computer Science & Engineering & Biomedical Engineering
-Ulsan National Institute of Science and Technology (UNIST)
-Email: allanurbayram13@unist.ac.kr
+## 👤 Author
+**Allanur Bayramgeldiyev**  
+* Department of Computer Science & Engineering & Biomedical Engineering  
+* Ulsan National Institute of Science and Technology (UNIST)  
+* Email: [allanurbayram13@unist.ac.kr](mailto:allanurbayram13@unist.ac.kr)
