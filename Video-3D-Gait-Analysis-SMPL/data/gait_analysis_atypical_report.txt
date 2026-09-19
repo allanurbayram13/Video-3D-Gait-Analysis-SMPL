@@ -1,0 +1,17 @@
+========================================
+GAIT ANALYSIS REPORT
+========================================
+
+Input File: smpl_gait_data.mat
+Analysis Date: 2026-06-13 16:43:22
+Data Quality Score: 100%
+
+--- METRICS SUMMARY ---
+Cadence:         90.7 steps/min
+Stride Length:   0.374 m
+Walking Speed:   0.247 m/s
+Step Width:      0.392 m
+Stance Phase:    57.9%
+Swing Phase:     42.1%
+Symmetry Index:  11.4%
+

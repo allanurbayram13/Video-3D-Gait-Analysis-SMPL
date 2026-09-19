@@ -1,0 +1,8 @@
+Parameter,Value,Unit,Normal Range,Status
+Cadence,115.320334261838,steps/min,100-130,
+Stride Length,0.591825295408879,m,1.30-1.60,
+Walking Speed,0.507177364113219,m/s,1.20-1.60,
+Step Width,0.247065436902308,m,0.06-0.12,
+Stance Phase,58.8949085381279,%,55-65,
+Swing Phase,41.1050914618721,%,35-45,
+Symmetry Index,19.6764056996307,%,<10,
