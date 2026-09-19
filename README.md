@@ -97,10 +97,14 @@ Run the main processing driver in MATLAB:
 % Run main processing script inside src/
 cd src/
 main_gait_analysis.m
+
+
 📄 Documentation & Slides
 For complete project slides and theoretical background, check out docs/Video_Based_3D_Gait_Analysis_Slides.pdf.
+
+
 👤 Author
-Allanur Bayramgeldiyev
+**Allanur Bayramgeldiyev**
 Department of Computer Science & Engineering & Biomedical Engineering
 Ulsan National Institute of Science and Technology (UNIST)
 Email: allanurbayram13@unist.ac.kr
