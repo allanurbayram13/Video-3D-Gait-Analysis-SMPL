@@ -91,3 +91,16 @@ The pipeline was validated against benchmark normative data (Winter, 1991) acros
    ```bash
    git clone [https://github.com/YOUR_USERNAME/Video-3D-Gait-Analysis-SMPL.git](https://github.com/YOUR_USERNAME/Video-3D-Gait-Analysis-SMPL.git)
    cd Video-3D-Gait-Analysis-SMPL
+Run the main processing driver in MATLAB:
+
+```matlab
+% Run main processing script inside src/
+cd src/
+main_gait_analysis.m
+📄 Documentation & Slides
+For complete project slides and theoretical background, check out docs/Video_Based_3D_Gait_Analysis_Slides.pdf.
+👤 Author
+Allanur Bayramgeldiyev
+Department of Computer Science & Engineering & Biomedical Engineering
+Ulsan National Institute of Science and Technology (UNIST)
+Email: allanurbayram13@unist.ac.kr
