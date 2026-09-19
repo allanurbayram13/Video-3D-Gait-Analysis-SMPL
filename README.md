@@ -53,9 +53,12 @@ An end-to-end computational pipeline that extracts clinical-grade 3D gait kinema
   <tr>
     <td><img width="640" height="360" alt="skeleton_overlay" src="https://github.com/user-attachments/assets/e3c57775-1096-40b1-aa46-637eb0de9a0e" /></td>
     <td><img width="640" height="360" alt="000282" src="https://github.com/user-attachments/assets/8ec20cb7-dcab-4bfb-9034-da1f8d6f883e" />
+
 </td>
   </tr>
 </table>
+
+---
 ## 📐 Kinematic & Mathematical Foundation
 
 ### 1. Zero-Phase Butterworth Filtering
@@ -92,7 +95,8 @@ The pipeline was validated against benchmark normative data (Winter, 1991) acros
 
 | Normal Joint Angle Waveforms | Atypical Joint Angle Waveforms |
 | :---: | :---: |
-| ![Normal Gait](assets/normal_fig1.png) | ![Atypical Gait](assets/atypical_fig1.png) |
+| ![Normal Gait](<img width="1408" height="1007" alt="normal_fig1" src="https://github.com/user-attachments/assets/138785d7-8618-458c-ad27-acd29cbc3680" />
+) | ![Atypical Gait](<img width="1408" height="1007" alt="atypical_fig1" src="https://github.com/user-attachments/assets/983e1622-53d6-435e-b41a-666737a075c6" />) |
 
 ---
 
